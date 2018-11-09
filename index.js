@@ -16,7 +16,8 @@ function currentLine(line) {
   else {
     let people;
     for (let i=0; i < line.length; i++) {
-      return i;
+      people += `${i + 1}. ${line[i]},`
     }
+    return ``
   }
 }
