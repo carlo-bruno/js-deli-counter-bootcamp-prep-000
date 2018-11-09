@@ -14,10 +14,10 @@ function nowServing(line) {
 function currentLine(line) {
   if (line.length === 0) {return "The line is currently empty."}
   else {
-    let people = "";
+    let people = [];
     for (let i=0; i < line.length; i++) {
-      people += `${i + 1}. ${line[i]}, `
+      people.push(`${i + 1}. ${line[i]}`)
     }
-    return `The line is currently: ${people}`;
+    return `The line is currently: ${people.join()}`;
   }
 }
