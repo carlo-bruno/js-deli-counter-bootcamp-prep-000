@@ -18,6 +18,6 @@ function currentLine(line) {
     for (let i=0; i < line.length; i++) {
       people += `${i + 1}. ${line[i]},`
     }
-    return ``
+    return `The line is currently: ${people}`;
   }
 }
