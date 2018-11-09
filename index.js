@@ -10,3 +10,7 @@ function nowServing(line) {
     return `Currently serving ${current}.`;
   }
 }
+
+function currentLine(line) {
+  if (line.length === 0) {return }
+}
