@@ -1,4 +1,4 @@
 function takeNuber(line, name) {
   line.push(name);
-  return `Welcome, ${name}. You are number ${} in line.`
+  return `Welcome, ${name}. You are number ${line.indexOf(name) +1} in line.`;
 }
