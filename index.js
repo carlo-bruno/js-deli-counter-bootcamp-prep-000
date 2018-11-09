@@ -16,8 +16,8 @@ function currentLine(line) {
   else {
     let people = [];
     for (let i=0; i < line.length; i++) {
-      people.push(`${i + 1}. ${line[i]} `)
+      people.push(`${i + 1}. ${line[i]}`)
     }
-    return `The line is currently: ${people.join()}`;
+    return `The line is currently: ${people.join(", ")}`;
   }
 }
