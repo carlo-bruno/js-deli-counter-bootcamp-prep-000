@@ -1,4 +1,4 @@
 function takeNuber(line, name) {
   line.push(name);
-  return ``
+  return `Welcome, ${name}. You are number ${} in line.`
 }
